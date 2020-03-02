@@ -15,7 +15,7 @@ public class Sqservlet extends HttpServlet{
 		k=k*k;
 		
 		PrintWriter pr= res.getWriter();
-		pr.println("square value = "+k);
+		pr.println("Square value = "+k);
 	}
 	
 }
